@@ -1,0 +1,318 @@
+2025-07-13 12:58:09.375 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-13 12:58:09.514 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger - null null
+2025-07-13 12:58:09.539 +07:00 [INF] Hosting environment: Development
+2025-07-13 12:58:09.540 +07:00 [INF] Content root path: D:\DATAQ\API_PPE
+2025-07-13 12:58:10.706 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger - 301 null null 1214.5529ms
+2025-07-13 12:58:10.706 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/index.html - null null
+2025-07-13 12:58:11.093 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/index.html - 200 null text/html;charset=utf-8 382.7746ms
+2025-07-13 12:58:11.112 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/swagger-ui.css - null null
+2025-07-13 12:58:11.113 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/index.css - null null
+2025-07-13 12:58:11.116 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/index.js - null null
+2025-07-13 12:58:11.118 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/swagger-ui-bundle.js - null null
+2025-07-13 12:58:11.133 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/index.js - 200 null application/javascript;charset=utf-8 16.4299ms
+2025-07-13 12:58:11.148 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/swagger-ui-standalone-preset.js - null null
+2025-07-13 12:58:11.174 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 12:58:11.214 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 27.4224ms
+2025-07-13 12:58:11.250 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/index.css - 200 202 text/css 136.3276ms
+2025-07-13 12:58:11.276 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/swagger-ui.css - 200 155175 text/css 164.2083ms
+2025-07-13 12:58:11.281 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/swagger-ui-standalone-preset.js - 200 229223 text/javascript 147.8034ms
+2025-07-13 12:58:11.380 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/swagger-ui-bundle.js - 200 1485750 text/javascript 264.3837ms
+2025-07-13 12:58:11.720 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 12:58:11.953 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 233.0827ms
+2025-07-13 12:58:12.319 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 12:58:12.353 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/favicon-32x32.png - null null
+2025-07-13 12:58:12.356 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/favicon-32x32.png - 200 628 image/png 3.3087ms
+2025-07-13 12:58:12.654 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 335.3769ms
+2025-07-13 12:58:26.091 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/WeatherForecast - null null
+2025-07-13 12:58:26.124 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.WeatherForecastController.Get (API_PPE)'
+2025-07-13 12:58:26.210 +07:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[API_PPE.WeatherForecast] Get() on controller API_PPE.Controllers.WeatherForecastController (API_PPE).
+2025-07-13 12:58:26.243 +07:00 [INF] Executing ObjectResult, writing value of type 'API_PPE.WeatherForecast[]'.
+2025-07-13 12:58:26.599 +07:00 [INF] Executed action API_PPE.Controllers.WeatherForecastController.Get (API_PPE) in 378.8916ms
+2025-07-13 12:58:26.599 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.WeatherForecastController.Get (API_PPE)'
+2025-07-13 12:58:26.600 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/WeatherForecast - 200 null application/json; charset=utf-8 509.0942ms
+2025-07-13 12:58:32.599 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/WeatherForecast - null null
+2025-07-13 12:58:32.601 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.WeatherForecastController.Get (API_PPE)'
+2025-07-13 12:58:32.601 +07:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[API_PPE.WeatherForecast] Get() on controller API_PPE.Controllers.WeatherForecastController (API_PPE).
+2025-07-13 12:58:32.602 +07:00 [INF] Executing ObjectResult, writing value of type 'API_PPE.WeatherForecast[]'.
+2025-07-13 12:58:32.606 +07:00 [INF] Executed action API_PPE.Controllers.WeatherForecastController.Get (API_PPE) in 4.2533ms
+2025-07-13 12:58:32.606 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.WeatherForecastController.Get (API_PPE)'
+2025-07-13 12:58:32.606 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/WeatherForecast - 200 null application/json; charset=utf-8 7.66ms
+2025-07-13 14:47:59.242 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-13 14:47:59.290 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 14:47:59.289 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 14:47:59.336 +07:00 [INF] Hosting environment: Development
+2025-07-13 14:47:59.336 +07:00 [INF] Content root path: D:\DATAQ\API_PPE
+2025-07-13 14:47:59.451 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 164.9195ms
+2025-07-13 14:47:59.537 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 267.0304ms
+2025-07-13 14:47:59.649 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 14:48:00.106 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 457.4063ms
+2025-07-13 14:48:28.689 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/api/JsonReceiveds - application/json 104
+2025-07-13 14:48:28.796 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 14:48:28.893 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 14:48:29.510 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 603.0397ms
+2025-07-13 14:48:29.513 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 14:48:29.527 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'API_PPE.AesEncryptionHelper' while attempting to activate 'API_PPE.Controllers.JsonReceivedsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-13 14:48:29.627 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/api/JsonReceiveds - 500 null text/plain; charset=utf-8 941.3659ms
+2025-07-13 14:49:28.612 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/index.html - null null
+2025-07-13 14:49:28.821 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/index.html - 200 null text/html;charset=utf-8 209.2437ms
+2025-07-13 14:49:28.864 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 14:49:28.865 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 14:49:28.866 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 2.0461ms
+2025-07-13 14:49:28.907 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.1416ms
+2025-07-13 14:49:29.160 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 14:49:29.166 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.7871ms
+2025-07-13 14:50:38.379 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/api/JsonReceiveds - application/json 104
+2025-07-13 14:50:38.380 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 14:50:38.396 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 14:50:38.437 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 40.4328ms
+2025-07-13 14:50:38.439 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 14:50:38.442 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'API_PPE.AesEncryptionHelper' while attempting to activate 'API_PPE.Controllers.JsonReceivedsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method26(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-13 14:50:38.446 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/api/JsonReceiveds - 500 null text/plain; charset=utf-8 67.5309ms
+2025-07-13 14:54:43.345 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-13 14:54:43.410 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 14:54:43.410 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 14:54:43.451 +07:00 [INF] Hosting environment: Development
+2025-07-13 14:54:43.451 +07:00 [INF] Content root path: D:\DATAQ\API_PPE
+2025-07-13 14:54:43.547 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 159.962ms
+2025-07-13 14:54:43.602 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 221.0472ms
+2025-07-13 14:54:43.704 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 14:54:43.950 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 246.1147ms
+2025-07-13 14:54:59.770 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/api/JsonReceiveds - application/json 104
+2025-07-13 14:54:59.829 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 14:54:59.920 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 14:55:00.438 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 506.1576ms
+2025-07-13 14:55:00.441 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 14:55:00.453 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'API_PPE.AesEncryptionHelper' while attempting to activate 'API_PPE.Controllers.JsonReceivedsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-13 14:55:00.552 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/api/JsonReceiveds - 500 null text/plain; charset=utf-8 782.2465ms
+2025-07-13 14:57:24.039 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/index.html - null null
+2025-07-13 14:57:24.344 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/index.html - 200 null text/html;charset=utf-8 304.9097ms
+2025-07-13 14:57:24.387 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 14:57:24.390 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 14:57:24.390 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 2.6431ms
+2025-07-13 14:57:24.440 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.0579ms
+2025-07-13 14:57:24.684 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 14:57:24.691 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.1982ms
+2025-07-13 14:58:04.327 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/api/JsonReceiveds - application/json 104
+2025-07-13 14:58:04.328 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 14:58:04.342 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 14:58:04.388 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 45.188ms
+2025-07-13 14:58:04.390 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 14:58:04.394 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'API_PPE.AesEncryptionHelper' while attempting to activate 'API_PPE.Controllers.JsonReceivedsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method26(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-13 14:58:04.399 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/api/JsonReceiveds - 500 null text/plain; charset=utf-8 71.9313ms
+2025-07-13 14:59:10.099 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-13 14:59:10.143 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 14:59:10.144 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 14:59:10.182 +07:00 [INF] Hosting environment: Development
+2025-07-13 14:59:10.182 +07:00 [INF] Content root path: D:\DATAQ\API_PPE
+2025-07-13 14:59:10.303 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 177.2661ms
+2025-07-13 14:59:10.361 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 237.7205ms
+2025-07-13 14:59:10.677 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 14:59:10.976 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 298.5848ms
+2025-07-13 14:59:28.497 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/api/JsonReceiveds - application/json 104
+2025-07-13 14:59:28.561 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 14:59:28.655 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 14:59:30.647 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-13 14:59:30.743 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 2075.5622ms
+2025-07-13 14:59:30.745 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 14:59:30.758 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/api/JsonReceiveds - 200 null application/json; charset=utf-8 2261.058ms
+2025-07-13 15:27:10.690 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-13 15:27:10.749 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 15:27:10.748 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 15:27:10.794 +07:00 [INF] Hosting environment: Development
+2025-07-13 15:27:10.794 +07:00 [INF] Content root path: D:\DATAQ\API_PPE
+2025-07-13 15:27:10.886 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 155.56ms
+2025-07-13 15:27:10.965 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 240.1659ms
+2025-07-13 15:27:11.073 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 15:27:11.423 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 350.2468ms
+2025-07-13 15:28:31.797 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/api/JsonReceiveds - application/json 121
+2025-07-13 15:28:31.883 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 15:28:31.977 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 15:28:32.809 +07:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-07-13 15:28:32.825 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 836.3628ms
+2025-07-13 15:28:32.826 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 15:28:32.831 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/api/JsonReceiveds - 401 null text/plain; charset=utf-8 1045.2167ms
+2025-07-13 15:31:31.845 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - application/json 120
+2025-07-13 15:31:31.848 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 15:31:31.849 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 15:31:34.687 +07:00 [INF] Executed DbCommand (89ms) [Parameters=[@__token_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[IDCLIENT], [a].[APITOKEN], [a].[CLIENTNAME], [a].[ENTRYDATE], [a].[ISACTIVE]
+FROM [APICLIENT] AS [a]
+WHERE [a].[APITOKEN] = @__token_0 AND [a].[ISACTIVE] = CAST(1 AS bit)
+2025-07-13 15:31:34.848 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-13 15:31:34.892 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 3043.293ms
+2025-07-13 15:31:34.893 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 15:31:34.907 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - 200 null application/json; charset=utf-8 3067.6502ms
+2025-07-13 15:35:18.184 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/index.html - null null
+2025-07-13 15:35:18.514 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/index.html - 200 null text/html;charset=utf-8 329.3229ms
+2025-07-13 15:35:18.569 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 15:35:18.571 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 15:35:18.577 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 5.7724ms
+2025-07-13 15:35:18.624 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.9542ms
+2025-07-13 15:35:18.885 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 15:35:18.898 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.0419ms
+2025-07-13 15:35:38.786 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - application/json 120
+2025-07-13 15:35:38.787 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 15:35:38.801 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 15:35:38.896 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__token_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[IDCLIENT], [a].[APITOKEN], [a].[CLIENTNAME], [a].[ENTRYDATE], [a].[ISACTIVE]
+FROM [APICLIENT] AS [a]
+WHERE [a].[APITOKEN] = @__token_0 AND [a].[ISACTIVE] = CAST(1 AS bit)
+2025-07-13 15:35:38.908 +07:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-13 15:35:38.919 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 116.8814ms
+2025-07-13 15:35:38.919 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 15:35:38.920 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - 200 null application/json; charset=utf-8 134.0759ms
+2025-07-13 15:36:14.557 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - application/json 91
+2025-07-13 15:36:14.558 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 15:36:14.559 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 15:36:14.792 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[@__token_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[IDCLIENT], [a].[APITOKEN], [a].[CLIENTNAME], [a].[ENTRYDATE], [a].[ISACTIVE]
+FROM [APICLIENT] AS [a]
+WHERE [a].[APITOKEN] = @__token_0 AND [a].[ISACTIVE] = CAST(1 AS bit)
+2025-07-13 15:36:14.801 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-07-13 15:36:14.805 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 246.6674ms
+2025-07-13 15:36:14.805 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 15:36:14.806 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - 400 null text/plain; charset=utf-8 249.5287ms
+2025-07-13 15:37:39.963 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/index.html - null null
+2025-07-13 15:37:39.987 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/index.html - 200 null text/html;charset=utf-8 23.2592ms
+2025-07-13 15:37:40.039 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 15:37:40.045 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 15:37:40.045 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 5.6605ms
+2025-07-13 15:37:40.062 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.4354ms
+2025-07-13 15:37:40.324 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 15:37:40.327 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.3999ms
+2025-07-13 15:38:05.688 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/index.html - null null
+2025-07-13 15:38:05.698 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/index.html - 200 null text/html;charset=utf-8 10.389ms
+2025-07-13 15:38:05.755 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 15:38:05.756 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 15:38:05.758 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 1.7155ms
+2025-07-13 15:38:05.779 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.202ms
+2025-07-13 15:38:05.967 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 15:38:05.976 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.3093ms
+2025-07-13 15:39:14.259 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/index.html - null null
+2025-07-13 15:39:14.267 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/index.html - 200 null text/html;charset=utf-8 8.7338ms
+2025-07-13 15:39:14.306 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 15:39:14.308 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 15:39:14.308 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 2.0634ms
+2025-07-13 15:39:14.326 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.8127ms
+2025-07-13 15:39:14.555 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 15:39:14.558 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.0612ms
+2025-07-13 22:22:02.655 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-13 22:22:02.714 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-13 22:22:02.715 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/_vs/browserLink - null null
+2025-07-13 22:22:02.734 +07:00 [INF] Hosting environment: Development
+2025-07-13 22:22:02.734 +07:00 [INF] Content root path: D:\DATAQ\API_PPE
+2025-07-13 22:22:02.776 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 72.9995ms
+2025-07-13 22:22:02.825 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/_vs/browserLink - 200 null text/javascript; charset=UTF-8 125.8354ms
+2025-07-13 22:22:02.935 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - null null
+2025-07-13 22:22:03.112 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 177.7269ms
+2025-07-13 22:22:43.936 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/api/JsonReceiveds - application/json 71
+2025-07-13 22:22:43.968 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 22:22:44.011 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 22:22:44.390 +07:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-07-13 22:22:44.396 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 381.6112ms
+2025-07-13 22:22:44.396 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 22:22:44.399 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/api/JsonReceiveds - 401 null text/plain; charset=utf-8 462.6886ms
+2025-07-13 22:23:18.640 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - application/json 91
+2025-07-13 22:23:18.645 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 22:23:18.645 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 22:23:21.220 +07:00 [INF] Executed DbCommand (108ms) [Parameters=[@__token_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[IDCLIENT], [a].[APITOKEN], [a].[CLIENTNAME], [a].[ENTRYDATE], [a].[ISACTIVE]
+FROM [APICLIENT] AS [a]
+WHERE [a].[APITOKEN] = @__token_0 AND [a].[ISACTIVE] = CAST(1 AS bit)
+2025-07-13 22:23:21.375 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-13 22:23:21.432 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 2786.877ms
+2025-07-13 22:23:21.433 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 22:23:21.444 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - 400 null application/json; charset=utf-8 2804.6368ms
+2025-07-13 22:25:10.529 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - application/json 91
+2025-07-13 22:25:10.556 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 22:25:10.557 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 22:25:10.604 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__token_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[IDCLIENT], [a].[APITOKEN], [a].[CLIENTNAME], [a].[ENTRYDATE], [a].[ISACTIVE]
+FROM [APICLIENT] AS [a]
+WHERE [a].[APITOKEN] = @__token_0 AND [a].[ISACTIVE] = CAST(1 AS bit)
+2025-07-13 22:25:10.604 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-13 22:25:10.605 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 47.5455ms
+2025-07-13 22:25:10.605 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 22:25:10.605 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - 400 null application/json; charset=utf-8 79.9111ms
+2025-07-13 22:40:06.325 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - application/json 91
+2025-07-13 22:40:06.325 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 22:40:06.325 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 22:40:06.391 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__token_0='?' (Size = 255)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[IDCLIENT], [a].[APITOKEN], [a].[CLIENTNAME], [a].[ENTRYDATE], [a].[ISACTIVE]
+FROM [APICLIENT] AS [a]
+WHERE [a].[APITOKEN] = @__token_0 AND [a].[ISACTIVE] = CAST(1 AS bit)
+2025-07-13 22:40:06.391 +07:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-13 22:40:06.392 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 66.2998ms
+2025-07-13 22:40:06.392 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 22:40:06.392 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:44357/api/JsonReceiveds - 400 null application/json; charset=utf-8 67.7906ms
+2025-07-13 22:41:20.513 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/api/JsonReceiveds - application/json 71
+2025-07-13 22:41:20.514 +07:00 [INF] Executing endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 22:41:20.515 +07:00 [INF] Route matched with {action = "PostJsonReceived", controller = "JsonReceiveds"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJsonReceived(API_PPE.Dto.JsonReceivedDto) on controller API_PPE.Controllers.JsonReceivedsController (API_PPE).
+2025-07-13 22:41:20.534 +07:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-07-13 22:41:20.535 +07:00 [INF] Executed action API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE) in 20.1422ms
+2025-07-13 22:41:20.535 +07:00 [INF] Executed endpoint 'API_PPE.Controllers.JsonReceivedsController.PostJsonReceived (API_PPE)'
+2025-07-13 22:41:20.535 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/api/JsonReceiveds - 401 null text/plain; charset=utf-8 22.1122ms
